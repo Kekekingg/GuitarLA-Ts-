@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -117,4 +117,4 @@ If you want, I can:
 - generate a README tailored exactly to the repo by inspecting package.json and source (I can fetch files from the repository),
 - add badges and a LICENSE file,
 - or create a short CONTRIBUTING.md. Which would you like next?
->>>>>>> 893f42b9446598441fa901430a60f46dbebb99e5
+
