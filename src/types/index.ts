@@ -10,6 +10,7 @@ export type CartItem = Guitar & {
     quantity: number
 }
 
+<<<<<<< HEAD
 // export type CartItem = Pick<Guitar, 'id' | 'name' | 'price' > & {
 //     quantity: number
 // }
@@ -17,3 +18,13 @@ export type CartItem = Guitar & {
 //     quantity: number
 // }
 
+=======
+//Se llama lookup type, pero solo puede tomarse un solo tipo de dato a la vez
+// export type GuitarID = Guitar['id'];
+
+//Otra forma de hacerlo seria usando Pick
+//export type CartItem = Pick<Guitar, 'id' | 'name' | 'image' | 'description' | 'price'> & { quantity: number };
+
+//Otra forma de hacerlo seria usando Omit
+//export type CartItem = Omit<Guitar, 'id' | 'name' | 'price'> & { quantity: number };
+>>>>>>> 893f42b9446598441fa901430a60f46dbebb99e5
